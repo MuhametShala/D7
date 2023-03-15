@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.testa{
+    width: 100%;
+    background-color: #3b7190;
+    height: 20%;
+    display: flex;
+}
+
+.corpo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.piede{
+    width: 100%;
+    height: 30%;
+    background-color:#118fd7;
+    display: flex;
+}
+
+
+.nav{
+    background-color: #dc661d;
+    width: 20%;
+    display: flex;
+    padding: 1rem;
+}
+
+.art{
+    background-color: #c1d90a;
+    width: 60%;
+    display: flex;
+    padding: 1rem;
+}
+
+.side{
+    background-color: #c8c50d;
+    width: 30%;
+    display: flex;
+    padding: 1rem;
+}
+
+.head{
+    padding: 1rem;
+}
+
+.foot{
+    padding: 1rem;
+}
+
+/* parte due */
+
+
+
+
