@@ -37,20 +37,27 @@ header{
 }
 
 main{
-    border: solid 2px black;
+    
     width: 90%;
 }
 
 .centerbutton ul {
     display: flex;
     gap: 1rem;
-    
+
+
+}
+
+.centerbutton li:hover{
+    background-color: grey;
+    opacity: 0.5;
+    border-radius: 7px;
+    padding: 4px;
 }
 
 .main_links{
     display: flex;
     justify-content:space-between;
-    border: 2px solid rgb(19, 255, 35);
     margin-bottom: 2rem;
 }
 
@@ -149,4 +156,23 @@ main{
 
 .views ion-icon{
     font-size: 1rem;
+}
+
+.leftbutton{
+    border-radius: 7px;
+    border: solid 4px rgb(249, 205, 247);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 25px;
+    
+}
+
+.rightbutton{
+    border: solid 1px grey;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px;
 }
